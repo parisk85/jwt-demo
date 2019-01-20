@@ -1,4 +1,4 @@
-package gr.parisk85.stats;
+package gr.parisk85.jwt.demo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class StatsApplicationTests {
+public class JwtDemoApplicationTests {
 
 	@Test
 	public void contextLoads() {

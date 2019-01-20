@@ -1,4 +1,4 @@
-package gr.parisk85.stats;
+package gr.parisk85.jwt.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,12 +6,12 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan(basePackages = {
-		"gr.parisk85.stats.*"
+		"gr.parisk85.jwt.demo.*"
 })
-public class StatsApplication {
+public class JwtDemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(StatsApplication.class, args);
+		SpringApplication.run(JwtDemoApplication.class, args);
 	}
 
 }

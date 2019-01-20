@@ -1,4 +1,4 @@
-package gr.parisk85.stats.model;
+package gr.parisk85.jwt.demo.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

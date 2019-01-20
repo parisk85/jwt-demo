@@ -1,4 +1,4 @@
-package gr.parisk85.stats.security;
+package gr.parisk85.jwt.demo.security;
 
 public class SecurityConstants {
     static final String SECRET = "SecretKeyToGenJWTs";

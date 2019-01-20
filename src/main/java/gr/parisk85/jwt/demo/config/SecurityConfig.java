@@ -1,7 +1,7 @@
-package gr.parisk85.stats.config;
+package gr.parisk85.jwt.demo.config;
 
-import gr.parisk85.stats.security.JWTAuthenticationFilter;
-import gr.parisk85.stats.security.JWTAuthorizationFilter;
+import gr.parisk85.jwt.demo.security.JWTAuthorizationFilter;
+import gr.parisk85.jwt.demo.security.JWTAuthenticationFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -17,7 +17,7 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
-import static gr.parisk85.stats.security.SecurityConstants.SIGN_UP_URL;
+import static gr.parisk85.jwt.demo.security.SecurityConstants.SIGN_UP_URL;
 
 @Configuration
 @EnableWebSecurity

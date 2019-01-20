@@ -1,6 +1,6 @@
-package gr.parisk85.stats.repositories;
+package gr.parisk85.jwt.demo.repositories;
 
-import gr.parisk85.stats.model.User;
+import gr.parisk85.jwt.demo.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

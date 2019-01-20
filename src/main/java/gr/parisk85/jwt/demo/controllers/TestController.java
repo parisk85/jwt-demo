@@ -1,4 +1,4 @@
-package gr.parisk85.stats.controllers;
+package gr.parisk85.jwt.demo.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

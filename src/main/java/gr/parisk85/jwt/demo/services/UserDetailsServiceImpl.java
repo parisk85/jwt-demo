@@ -1,6 +1,6 @@
-package gr.parisk85.stats.services;
+package gr.parisk85.jwt.demo.services;
 
-import gr.parisk85.stats.model.User;
+import gr.parisk85.jwt.demo.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

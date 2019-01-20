@@ -1,7 +1,7 @@
-package gr.parisk85.stats.controllers;
+package gr.parisk85.jwt.demo.controllers;
 
-import gr.parisk85.stats.model.User;
-import gr.parisk85.stats.services.UserService;
+import gr.parisk85.jwt.demo.services.UserService;
+import gr.parisk85.jwt.demo.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.*;

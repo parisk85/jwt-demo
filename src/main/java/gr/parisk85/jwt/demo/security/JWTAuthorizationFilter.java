@@ -1,4 +1,4 @@
-package gr.parisk85.stats.security;
+package gr.parisk85.jwt.demo.security;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import static gr.parisk85.stats.security.SecurityConstants.*;
+import static gr.parisk85.jwt.demo.security.SecurityConstants.*;
 
 public class JWTAuthorizationFilter extends BasicAuthenticationFilter {
 
