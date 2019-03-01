@@ -9,22 +9,13 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/users")
+@RequestMapping("/user")
 public class UserController {
 
     @Autowired
     private UserService userService;
 
-    @Autowired
-    private BCryptPasswordEncoder bCryptPasswordEncoder;
-
-    @PostMapping("/sign-up")
-    public void signup(@RequestBody User user) {
-        user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
-        userService.save(user);
-    }
-
-    @GetMapping
+    @GetMapping("/all")
     public List<User> findAll() {
         return userService.findAll();
     }
